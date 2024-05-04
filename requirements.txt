@@ -1,0 +1,4 @@
+faiss-cpu
+langchain_community
+pypdf
+langchain-text-splitters

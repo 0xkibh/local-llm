@@ -30,3 +30,9 @@ ollama run phi3
 ```sh
 ollama rm phi3
 ```
+
+### Questions
+
+1. Can embedding model and LLM model can be different?
+Answer: Yes, they can. Because when you use embedding model, we are basically coverting the source(context) text's chunks and our query text to embedding and fetching matching/similar N number of chunks of source text to the query text. So there is no direct 
+relation between them. 
